@@ -4,6 +4,10 @@ class Tree:
         self.index = i
         self.left = l
         self.right = r
+        self.depth = -1
+
+    def setDepth(self, d):
+        self.depth = d
 
     # 재귀적으로 동작
     # 새로운 노드가 현재 노드의 자식으로 추가되어야 하는 경우
