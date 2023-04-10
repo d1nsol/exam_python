@@ -1,10 +1,9 @@
 # exam_python
 exam_python, study
 
-```c
+```python
 class exam_python:
 
     def main():
         print('Hello python~!')
 
-```
