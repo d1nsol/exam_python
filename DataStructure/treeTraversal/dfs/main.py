@@ -1,5 +1,5 @@
 from tree import Tree
-from treeTrav import preorder, inorder, postorder
+from dfs import preorder, inorder, postorder
 
 def main():
     examTree = Tree(None, None, None)

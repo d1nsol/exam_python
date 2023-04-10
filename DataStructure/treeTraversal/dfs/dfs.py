@@ -5,6 +5,8 @@ class TreeNode:
         self.right = None
 '''
 
+# DFS(깊이우선탐색)
+
 # 전위순회
 def preorder(tree):
     result = []
