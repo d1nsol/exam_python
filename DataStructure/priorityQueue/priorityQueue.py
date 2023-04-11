@@ -38,7 +38,7 @@ class PriorityQueue:
                 priority = index * 2
             else:
                 if self.data[index*2] < self.data[index*2 + 1]:
-                    prioroty = index*2
+                    priority = index*2
                 else:
                     priority = index*2 + 1
 
