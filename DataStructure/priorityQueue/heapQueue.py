@@ -15,4 +15,4 @@ class heapQueue:
         if len(self.data) == 0:
             return -1
         else:
-            self.data[0]
+            return self.data[0]
